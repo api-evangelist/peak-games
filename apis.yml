@@ -1,8 +1,22 @@
 aid: peak-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peak-games.png
 name: Peak Games
-description: 'Peak Games is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Peak (Peak Games) is a global mobile game developer headquartered in Istanbul, Turkey, best known
+  for the casual puzzle titles Toon Blast and Toy Blast, which reach roughly 40 million monthly active users worldwide.
+  The studio was acquired by Zynga in 2020 and operates teams across game development, art, big data and data science,
+  and cloud platform engineering. Peak publishes consumer mobile games and does not expose a public developer API,
+  developer portal, or API documentation; this profile is maintained as a company record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/peak-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +26,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Gaming
+- Mobile Games
+- Game Development
+- Entertainment
+- Casual Games
 apis: []
+common:
+- type: DomainSecurity
+  url: security/peak-games-domain-security.yml
+- type: Website
+  url: https://peak.com
+- type: Careers
+  url: https://peak.com/jobs
+- type: Press
+  url: https://peak.com/press
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
